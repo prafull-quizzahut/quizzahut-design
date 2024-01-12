@@ -77,7 +77,9 @@ Ui/Ux design:
 
 Database Design:
     Tables:
-        
+        User:
+            1. ID
+            
 
 5. Validation and testing
 To go live with a new product, you first need to validate and test it. This ensures that every part of the product—from development to marketing—is working effectively before it’s released to the public.
