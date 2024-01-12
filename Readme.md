@@ -12,11 +12,17 @@ Functionality:
                 Roles: 
                     1. Students: Those who attempt and create the quizzes
                     2. Moderators: Those who moderate the website against spam and irrelevant content
+                
+                Feartures:
+                    1. Karma System: Karma Based Sorting (Reddit)
 
 SWOT analysis: 
     Strength: The addition of ease of adding new questions by the students themselves makes this a democratic platform where the Quizzes are created by the students for the students.
+    Weakness: Whole product is dependent on students.
+    Oppoturnity: Untapped market and strong differentiator. Coaching Classes might be paying customers for this product as it will make a good playground for their students to practice.
+    Threats: If students loose interest and post few questions, site becomes unusable. We need to plan AI to add new questions from provided subjects.
 
-SCAMPER method: We will prepare this after primary POC is developed. (substituting, combining, adapting, modifying, putting to another use, eliminating, or rearranging)
+SCAMPER method: [We will prepare this after primary POC is developed.] (substituting, combining, adapting, modifying, putting to another use, eliminating, or rearranging)
 
 2. Product definition
 
@@ -39,30 +45,39 @@ We are planning to prototype with following set of features:
     3. Quiz Creation: Students should be able to create questions and quizzes which are categorized in subject catagories and subjects are further catagorized in exam catagories.
 
 
-Feasibility analysis: The next step in the process is to evaluate your product strategy based on feasibility. Determine if the workload and estimated timeline are possible to achieve. If not, adjust your dates accordingly and request help from additional stakeholders.
+*Feasibility analysis: The next step in the process is to evaluate your product strategy based on feasibility. Determine if the workload and estimated timeline are possible to achieve. If not, adjust your dates accordingly and request help from additional stakeholders.
 
-Market risk research: It’s important to analyze any potential risks associated with the production of your product before it’s physically created. This will prevent the product launch from being derailed later on. It will also ensure you communicate risks to the team by documenting them in a risk register. 
+*Market risk research: It’s important to analyze any potential risks associated with the production of your product before it’s physically created. This will prevent the product launch from being derailed later on. It will also ensure you communicate risks to the team by documenting them in a risk register. 
 
-Development strategy: Next, you can begin working through your development plan. In other words, know how you’ll be assigning tasks and the timeline of these tasks. One way you can plan tasks and estimate timeline is by using the critical path method. 
+*Development strategy: Next, you can begin working through your development plan. In other words, know how you’ll be assigning tasks and the timeline of these tasks. One way you can plan tasks and estimate timeline is by using the critical path method. 
 
-MVP: The final outcome of the prototyping stage is a minimum viable product. Think of your MVP as a product that has the features necessary to go to launch with and nothing above what’s necessary for it to function. For example, an MVP bike would include a frame, wheels, and a seat, but wouldn’t contain a basket or bell. Creating an MVP can help your team execute the product launch quicker than building all the desired features, which can drag launch timelines out. Desired features can be added down the road when bandwidth is available.
-
-Now it’s time to begin designing the product for market launch. 
+MVP: A quiz application where students can create accounts and create quizzes. These quizzes will be attempted by other students. Upon attempting, students can upvote/downvote the quiz and question (at two levels). Moderators can control the content to avoid spam and irrelevant material. Students can view their previously attempted questions and quizzes. Students can see the results of their quizzes. 
 
 4. Initial design
-During the initial design phase, project stakeholders work together to produce a mockup of the product based on the MVP prototype. The design should be created with the target audience in mind and complement the key functions of your product. 
 
-A successful product design may take several iterations to get just right, and may involve communicating with distributors in order to source necessary materials. 
+Branding:
+    Logo
+    Colors
+    Fonts
+    Brand Guidelines
 
-To produce the initial design, you will: 
+Ui/Ux design:
 
-Source materials: Sourcing materials plays an important role in designing the initial mockup. This may entail working with various vendors and ordering materials or creating your own. Since materials can come from various places, you should document material use in a shared space to reference later if needed.  
+    Ui for Quiz / Question
+    Ui for Account Management
+    Ui for Student Homepage
+    Ui for Moderator Homepage
+    Ui for Landing Page
+    Ui for Quiz Results
+    Ui for History
 
-Connect with stakeholders: It’s important to keep tight communication during the design phase to verify your initial design is on the right track. Share weekly or daily progress reports to share updates and get approvals as needed. 
+    Ux for Question Attempt (Correct Incorrect)
+    Ux for Quiz creation (ease)
+    Ux for Landing Page
 
-Receive initial feedback: When the design is complete, ask senior management and project stakeholders for initial feedback. You can then revise the product design as needed until the final design is ready to be developed and implemented. 
-
-Once the design is approved and ready to be handed off, move onto the validation phase for final testing before launching the product. 
+Database Design:
+    Tables:
+        
 
 5. Validation and testing
 To go live with a new product, you first need to validate and test it. This ensures that every part of the product—from development to marketing—is working effectively before it’s released to the public.
